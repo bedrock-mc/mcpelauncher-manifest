@@ -55,3 +55,20 @@ The old wiki of readthedocs is obsolete.
 [AppImage (Deprecated) and DMG Files](https://github.com/minecraft-linux/mcpelauncher-manifest/releases/tag/nightly)
 [Debian, Ubuntu and Fedora Packages (ca. 1-24h delay)](https://github.com/minecraft-linux/pkg?tab=readme-ov-file#nightly)
 [flatpak install flathub-beta io.mrarm.mcpelauncher (ca. 1-24h delay)](https://discourse.flathub.org/t/how-to-use-flathub-beta/2111)
+
+## bedrock-mc fork
+
+This fork carries the launcher-side changes behind
+[mcpelauncher-agent](https://github.com/bedrock-mc/mcpelauncher-agent), an MCP server that drives the real
+client. Submodules `mcpelauncher-client`, `game-window` and `libc-shim` point at the bedrock-mc forks
+(branch `agent`); everything else tracks upstream.
+
+- `mcpelauncher-client`: `--agent-socket <path>` control server (input injection, PNG frame capture, state,
+  quit), `--fps-cap N`, `--hidden`, an `unfocused_fps_cap` setting (default 15), and a 30 s watchdog that
+  force-exits when the game's own shutdown wedges after Quit.
+- `libc-shim`: monotonic condvar deadlines are honored on macOS (Darwin has no `pthread_condattr_setclock`),
+  which removes a spinning NetherNet thread that pinned a full core at the main menu.
+- `game-window`: `hide()` and `isFocused()`.
+
+macOS: `scripts/build-macos-client.sh --install` builds the client and drops it into an installed
+`Minecraft Bedrock Launcher.app`.
