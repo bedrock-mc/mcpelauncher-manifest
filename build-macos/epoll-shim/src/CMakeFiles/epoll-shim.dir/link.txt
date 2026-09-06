@@ -1,2 +1,0 @@
-/usr/bin/ar qc libepoll-shim.a "CMakeFiles/epoll-shim.dir/epoll.c.o" "CMakeFiles/epoll-shim.dir/signalfd.c.o" "CMakeFiles/epoll-shim.dir/common.c.o"
-/usr/bin/ranlib libepoll-shim.a

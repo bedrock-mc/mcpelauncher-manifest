@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmsa-daemon-client.a "CMakeFiles/msa-daemon-client.dir/src/service_client.cpp.o" "CMakeFiles/msa-daemon-client.dir/src/token.cpp.o"
-/usr/bin/ranlib libmsa-daemon-client.a

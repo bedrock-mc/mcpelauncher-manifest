@@ -4,3 +4,7 @@ cmake-build-debug-clang
 cmake-build-release
 cmake-build-release-clang
 .idea
+build-*/
+dist/
+*.tar.gz
+*.tar.gz.sha256

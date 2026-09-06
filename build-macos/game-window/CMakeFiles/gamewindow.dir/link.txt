@@ -1,2 +1,0 @@
-/usr/bin/ar qc libgamewindow.a CMakeFiles/gamewindow.dir/src/game_window_manager.cpp.o CMakeFiles/gamewindow.dir/src/game_window_error_handler.cpp.o CMakeFiles/gamewindow.dir/src/joystick_manager.cpp.o CMakeFiles/gamewindow.dir/src/window_glfw.cpp.o CMakeFiles/gamewindow.dir/src/window_manager_glfw.cpp.o CMakeFiles/gamewindow.dir/src/joystick_manager_glfw.cpp.o
-/usr/bin/ranlib libgamewindow.a

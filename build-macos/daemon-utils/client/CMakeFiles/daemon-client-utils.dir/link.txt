@@ -1,2 +1,0 @@
-/usr/bin/ar qc libdaemon-client-utils.a "CMakeFiles/daemon-client-utils.dir/src/daemon_launcher.cpp.o"
-/usr/bin/ranlib libdaemon-client-utils.a

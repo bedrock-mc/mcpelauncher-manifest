@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbaron.a CMakeFiles/baron.dir/src/baron/jvm.cpp.o
-/usr/bin/ranlib libbaron.a

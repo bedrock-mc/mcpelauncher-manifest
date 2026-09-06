@@ -1,1 +1,0 @@
-/usr/bin/c++ -DNDEBUG -Wl,-rpath,@loader_path/../Frameworks -fno-delete-null-pointer-checks -O3 -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/axml_parser_demo.dir/main.cpp.o -o axml_parser_demo  libaxml_parser.a
