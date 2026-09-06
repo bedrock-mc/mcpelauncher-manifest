@@ -22,9 +22,6 @@ Accepting the launcher's own update banner restores the stock client — reinsta
 - `--fps-cap N` and the `unfocused_fps_cap` setting (default 15) — bound the render rate; the game ticks
   independently, so this is a pure CPU/GPU saving.
 - `--hidden` — start with the window hidden (it still renders, so captures work).
-- HTTP shim: 10 s connect / 30 s stall timeouts (the stock launcher had none — one unreachable Xbox
-  endpoint stalled sign-in or a server join for 75 s on macOS, ~2 min on Linux) and a shared curl handle so
-  requests reuse connections and TLS sessions. `MCPELAUNCHER_HTTP_TIMING=1` logs every request.
 - Two macOS fixes: a 30 s watchdog for the quit path that could spin a core forever
   ([client#150](https://github.com/minecraft-linux/mcpelauncher-client/pull/150)), and monotonic condvar
   deadlines in libc-shim, worth ~100% → 3–4% CPU at the main menu
