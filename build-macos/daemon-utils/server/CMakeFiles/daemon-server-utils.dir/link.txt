@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdaemon-server-utils.a "CMakeFiles/daemon-server-utils.dir/src/auto_shutdown_service.cpp.o"
+/usr/bin/ranlib libdaemon-server-utils.a

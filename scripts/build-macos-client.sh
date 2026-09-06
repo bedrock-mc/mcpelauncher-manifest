@@ -14,11 +14,19 @@ cmake -S "$SRC" -B "$BUILD" -DCMAKE_BUILD_TYPE=Release -DCMAKE_POLICY_VERSION_MI
   -DUSE_OWN_CURL=ON -DOPENSSL_ROOT_DIR="$(brew --prefix openssl@3)" \
   -DCMAKE_CXX_FLAGS="-DNDEBUG -Wl,-rpath,@loader_path/../Frameworks"
 cmake --build "$BUILD" --target mcpelauncher-client -j"$(sysctl -n hw.ncpu)"
+
+BIN="$BUILD/mcpelauncher-client/mcpelauncher-client"
+# Link against the libcrypto shipped in the app bundle, not the build machine's Homebrew copy,
+# so the binary runs on machines without Homebrew.
+for lib in $(otool -L "$BIN" | awk '/libcrypto.*dylib/ {print $1}' | grep -v '^@'); do
+  install_name_tool -change "$lib" @rpath/libcrypto.dylib "$BIN"
+done
+codesign --force --sign - "$BIN"
 if [ "${1:-}" = "--install" ]; then
   case "$(uname -m)" in arm64) NAME=mcpelauncher-client-arm64-v8a ;; *) NAME=mcpelauncher-client ;; esac
   DEST="$APP/Contents/MacOS/$NAME"
   [ -f "$DEST.orig" ] || cp -p "$DEST" "$DEST.orig"
-  cp "$BUILD/mcpelauncher-client/mcpelauncher-client" "$DEST"
+  cp "$BIN" "$DEST"
   codesign --force --sign - "$DEST"
   echo "installed $DEST (original kept as $DEST.orig)"
 fi

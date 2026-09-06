@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmcpelauncher-errorwindow.a "CMakeFiles/mcpelauncher-errorwindow.dir/src/errorwindow.cpp.o"
+/usr/bin/ranlib libmcpelauncher-errorwindow.a

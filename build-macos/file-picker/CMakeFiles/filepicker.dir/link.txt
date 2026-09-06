@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfilepicker.a CMakeFiles/filepicker.dir/src/file_picker_factory.cpp.o CMakeFiles/filepicker.dir/src/file_picker_cocoa.mm.o
+/usr/bin/ranlib libfilepicker.a

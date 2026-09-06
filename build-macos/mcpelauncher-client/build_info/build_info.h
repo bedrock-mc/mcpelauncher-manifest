@@ -1,0 +1,4 @@
+#pragma once
+
+#define MANIFEST_GIT_COMMIT_HASH "7f85c63"
+#define CLIENT_GIT_COMMIT_HASH "c568123"

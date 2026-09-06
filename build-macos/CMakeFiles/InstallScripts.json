@@ -1,0 +1,36 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/sdl3/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/_deps/glfw3_ext-build/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/_deps/glfw3_ext-build/src/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/osx-elf-header/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/epoll-shim/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/epoll-shim/src/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/logger/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/base64/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/file-util/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/properties-parser/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/arg-parser/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/mcpelauncher-linker/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/libc-shim/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/simple-ipc/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/daemon-utils/client/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/daemon-utils/server/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/msa-daemon-client/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/file-picker/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/game-window/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/cll-telemetry/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/minecraft-imported-symbols/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/mcpelauncher-common/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/mcpelauncher-core/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/mcpelauncher-apkinfo/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/axml-parser/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/android-support-headers/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/libjnivm/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/mcpelauncher-client/cmake_install.cmake",
+		"/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/mcpelauncher-errorwindow/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

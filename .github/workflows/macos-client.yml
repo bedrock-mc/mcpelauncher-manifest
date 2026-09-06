@@ -1,0 +1,51 @@
+name: macOS client
+
+# Builds only mcpelauncher-client (the UI, webview and frameworks come from the upstream .dmg).
+# Pushing a tag publishes the binary as a release asset.
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'client-v*'
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install dependencies
+        run: brew install cmake openssl@3 libpng libzip pkgconf
+
+      - name: Build
+        run: sh scripts/build-macos-client.sh
+
+      - name: Package
+        id: package
+        run: |
+          BIN=build-macos/mcpelauncher-client/mcpelauncher-client
+          test "$(lipo -archs "$BIN")" = arm64
+          otool -L "$BIN" | grep -q '@rpath/libcrypto.dylib'
+          otool -L "$BIN" | grep -v '@rpath' | grep -q '/opt/homebrew' && { echo "binary still links Homebrew paths"; exit 1; }
+          mkdir -p dist && cp "$BIN" dist/mcpelauncher-client-arm64-v8a
+          cp scripts/README-release.md dist/README.md
+          tar -C dist -czf mcpelauncher-client-macos-arm64.tar.gz mcpelauncher-client-arm64-v8a README.md
+          shasum -a 256 mcpelauncher-client-macos-arm64.tar.gz > mcpelauncher-client-macos-arm64.tar.gz.sha256
+          cat mcpelauncher-client-macos-arm64.tar.gz.sha256
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mcpelauncher-client-macos-arm64
+          path: |
+            mcpelauncher-client-macos-arm64.tar.gz
+            mcpelauncher-client-macos-arm64.tar.gz.sha256
+
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            mcpelauncher-client-macos-arm64.tar.gz
+            mcpelauncher-client-macos-arm64.tar.gz.sha256

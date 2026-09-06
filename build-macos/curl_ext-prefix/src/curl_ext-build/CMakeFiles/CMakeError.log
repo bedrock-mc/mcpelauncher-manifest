@@ -1,0 +1,298 @@
+Performing Curl Test HAVE_FSETXATTR_5 failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_72cec/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_72cec.dir/build.make CMakeFiles/cmTC_72cec.dir/build
+Building C object CMakeFiles/cmTC_72cec.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_FSETXATTR_5  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_72cec.dir/CurlTests.c.o -MF CMakeFiles/cmTC_72cec.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_72cec.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:430:5: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  430 | main() {
+      |     ^
+      |      void
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:431:26: error: too few arguments to function call, expected 6, have 5
+  431 |   fsetxattr(0, 0, 0, 0, 0);
+      |   ~~~~~~~~~              ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/xattr.h:71:5: note: 'fsetxattr' declared here
+   71 | int fsetxattr(int fd, const char *name, const void *value, size_t size, u_int32_t position, int options);
+      |     ^         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning and 1 error generated.
+make[5]: *** [CMakeFiles/cmTC_72cec.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_72cec/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_95d1c/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_95d1c.dir/build.make CMakeFiles/cmTC_95d1c.dir/build
+Building C object CMakeFiles/cmTC_95d1c.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_95d1c.dir/CurlTests.c.o -MF CMakeFiles/cmTC_95d1c.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_95d1c.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:216:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  216 | main ()
+      |      ^
+      |       void
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:221:24: error: call to undeclared function 'ioctlsocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  221 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                        ^
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:221:44: error: use of undeclared identifier 'FIONBIO'
+  221 |  unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                                            ^~~~~~~
+1 warning and 2 errors generated.
+make[5]: *** [CMakeFiles/cmTC_95d1c.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_95d1c/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c382f/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c382f.dir/build.make CMakeFiles/cmTC_c382f.dir/build
+Building C object CMakeFiles/cmTC_c382f.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_c382f.dir/CurlTests.c.o -MF CMakeFiles/cmTC_c382f.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_c382f.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:241:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  241 | main ()
+      |      ^
+      |       void
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:245:13: error: call to undeclared function 'IoctlSocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  245 |     if(0 != IoctlSocket(0, 0, 0))
+      |             ^
+1 warning and 1 error generated.
+make[5]: *** [CMakeFiles/cmTC_c382f.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_c382f/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_692a0/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_692a0.dir/build.make CMakeFiles/cmTC_692a0.dir/build
+Building C object CMakeFiles/cmTC_692a0.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_692a0.dir/CurlTests.c.o -MF CMakeFiles/cmTC_692a0.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_692a0.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:264:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  264 | main ()
+      |      ^
+      |       void
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:269:17: error: call to undeclared function 'IoctlSocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  269 |         if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                 ^
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:269:32: error: use of undeclared identifier 'FIONBIO'
+  269 |         if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                                ^~~~~~~
+1 warning and 2 errors generated.
+make[5]: *** [CMakeFiles/cmTC_692a0.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_692a0/fast] Error 2
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cc601/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_cc601.dir/build.make CMakeFiles/cmTC_cc601.dir/build
+Building C object CMakeFiles/cmTC_cc601.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_cc601.dir/CurlTests.c.o -MF CMakeFiles/cmTC_cc601.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_cc601.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:288:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  288 | main ()
+      |      ^
+      |       void
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:292:17: error: call to undeclared function 'ioctlsocket'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  292 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                 ^
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:292:32: error: use of undeclared identifier 'FIONBIO'
+  292 |         if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                                ^~~~~~~
+1 warning and 2 errors generated.
+make[5]: *** [CMakeFiles/cmTC_cc601.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_cc601/fast] Error 2
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0bc67/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0bc67.dir/build.make CMakeFiles/cmTC_0bc67.dir/build
+Building C object CMakeFiles/cmTC_0bc67.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_0bc67.dir/CurlTests.c.o -MF CMakeFiles/cmTC_0bc67.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_0bc67.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:382:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  382 | main ()
+      |      ^
+      |       void
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:384:43: error: use of undeclared identifier 'SO_NONBLOCK'
+  384 |         if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+      |                                           ^~~~~~~~~~~
+1 warning and 1 error generated.
+make[5]: *** [CMakeFiles/cmTC_0bc67.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_0bc67/fast] Error 2
+
+
+Performing Curl Test HAVE_O_NONBLOCK failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_02aee/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_02aee.dir/build.make CMakeFiles/cmTC_02aee.dir/build
+Building C object CMakeFiles/cmTC_02aee.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_O_NONBLOCK  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_02aee.dir/CurlTests.c.o -MF CMakeFiles/cmTC_02aee.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_02aee.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:532:7: warning: ISO C requires a translation unit to contain at least one declaration [-Wempty-translation-unit]
+  532 | #endif
+      |       ^
+1 warning generated.
+Linking C executable cmTC_02aee
+/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02aee.dir/link.txt --verbose=1
+Undefined symbols for architecture arm64:
+  "_main", referenced from:
+      <initial-undefines>
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+/usr/bin/cc  -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_O_NONBLOCK  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_02aee.dir/CurlTests.c.o -o cmTC_02aee
+make[5]: *** [cmTC_02aee] Error 1
+make[4]: *** [cmTC_02aee/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3 failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d1e51/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d1e51.dir/build.make CMakeFiles/cmTC_d1e51.dir/build
+Building C object CMakeFiles/cmTC_d1e51.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_3  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_d1e51.dir/CurlTests.c.o -MF CMakeFiles/cmTC_d1e51.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_d1e51.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:92:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   92 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:99:23: error: variable has incomplete type 'struct hostent_data'
+   99 |   struct hostent_data hdata;
+      |                       ^
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:99:10: note: forward declaration of 'struct hostent_data'
+   99 |   struct hostent_data hdata;
+      |          ^
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:111:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  111 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^
+1 warning and 2 errors generated.
+make[5]: *** [CMakeFiles/cmTC_d1e51.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_d1e51/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5 failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b10ca/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b10ca.dir/build.make CMakeFiles/cmTC_b10ca.dir/build
+Building C object CMakeFiles/cmTC_b10ca.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_5  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_b10ca.dir/CurlTests.c.o -MF CMakeFiles/cmTC_b10ca.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_b10ca.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:92:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   92 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:114:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  114 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^
+1 warning and 1 error generated.
+make[5]: *** [CMakeFiles/cmTC_b10ca.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_b10ca/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_6 failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f60c/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8f60c.dir/build.make CMakeFiles/cmTC_8f60c.dir/build
+Building C object CMakeFiles/cmTC_8f60c.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_6  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_8f60c.dir/CurlTests.c.o -MF CMakeFiles/cmTC_8f60c.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_8f60c.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:92:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   92 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:118:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  118 |   rc = gethostbyname_r(address, &h, buffer, 8192, &hp, &h_errnop);
+      |        ^
+1 warning and 1 error generated.
+make[5]: *** [CMakeFiles/cmTC_8f60c.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_8f60c/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_53ca2/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_53ca2.dir/build.make CMakeFiles/cmTC_53ca2.dir/build
+Building C object CMakeFiles/cmTC_53ca2.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_3_REENTRANT  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_53ca2.dir/CurlTests.c.o -MF CMakeFiles/cmTC_53ca2.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_53ca2.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:92:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   92 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:99:23: error: variable has incomplete type 'struct hostent_data'
+   99 |   struct hostent_data hdata;
+      |                       ^
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:99:10: note: forward declaration of 'struct hostent_data'
+   99 |   struct hostent_data hdata;
+      |          ^
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:111:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  111 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^
+1 warning and 2 errors generated.
+make[5]: *** [CMakeFiles/cmTC_53ca2.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_53ca2/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e3c95/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e3c95.dir/build.make CMakeFiles/cmTC_e3c95.dir/build
+Building C object CMakeFiles/cmTC_e3c95.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_5_REENTRANT  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_e3c95.dir/CurlTests.c.o -MF CMakeFiles/cmTC_e3c95.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_e3c95.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:92:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   92 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:114:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  114 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^
+1 warning and 1 error generated.
+make[5]: *** [CMakeFiles/cmTC_e3c95.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_e3c95/fast] Error 2
+
+
+Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e6427/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e6427.dir/build.make CMakeFiles/cmTC_e6427.dir/build
+Building C object CMakeFiles/cmTC_e6427.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GETHOSTBYNAME_R_6_REENTRANT  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_e6427.dir/CurlTests.c.o -MF CMakeFiles/cmTC_e6427.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_e6427.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:92:9: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   92 |   char *address = "example.com";
+      |         ^         ~~~~~~~~~~~~~
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:118:8: error: call to undeclared function 'gethostbyname_r'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+  118 |   rc = gethostbyname_r(address, &h, buffer, 8192, &hp, &h_errnop);
+      |        ^
+1 warning and 1 error generated.
+make[5]: *** [CMakeFiles/cmTC_e6427.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_e6427/fast] Error 2
+
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: '/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7f504/fast
+/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7f504.dir/build.make CMakeFiles/cmTC_7f504.dir/build
+Building C object CMakeFiles/cmTC_7f504.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -Wall -W -Wpointer-arith -Wwrite-strings -Wunused -Wshadow -Winline -Wnested-externs -Wmissing-declarations -Wmissing-prototypes -Wfloat-equal -Wsign-compare -Wundef -Wendif-labels -Wstrict-prototypes -Wdeclaration-after-statement -Wcast-align -Wtype-limits -Wempty-body -Wignored-qualifiers -Wconversion -Wvla -Wdouble-promotion -Wenum-conversion -Wno-long-long -Wno-multichar -Wno-format-nonliteral -Wno-sign-conversion -Wno-system-headers -DHAVE_GLIBC_STRERROR_R  -DHAVE_INTTYPES_H -DHAVE_SYS_FILIO_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_SOCKIO_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_ARPA_TFTP_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_SETJMP_H -DHAVE_SIGNAL_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H -DHAVE_STRINGS_H -DHAVE_TERMIOS_H -DHAVE_TIME_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -DHAVE_STDDEF_H -DHAVE_SYS_UTSNAME_H -arch arm64 -MD -MT CMakeFiles/cmTC_7f504.dir/CurlTests.c.o -MF CMakeFiles/cmTC_7f504.dir/CurlTests.c.o.d -o CMakeFiles/cmTC_7f504.dir/CurlTests.c.o -c /Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:394:17: warning: unused parameter 'c' [-Wunused-parameter]
+  394 | void check(char c) {}
+      |                 ^
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:394:6: warning: no previous prototype for function 'check' [-Wmissing-prototypes]
+  394 | void check(char c) {}
+      |      ^
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:394:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+  394 | void check(char c) {}
+      | ^
+      | static 
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:397:6: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+  397 | main () {
+      |      ^
+      |       void
+/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext/CMake/CurlTests.c:400:51: error: subscripted value is not an array, pointer, or vector
+  400 |   check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+3 warnings and 1 error generated.
+make[5]: *** [CMakeFiles/cmTC_7f504.dir/CurlTests.c.o] Error 1
+make[4]: *** [cmTC_7f504/fast] Error 2
+
+

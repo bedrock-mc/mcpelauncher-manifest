@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmcpelauncher-apkinfo.a "CMakeFiles/mcpelauncher-apkinfo.dir/src/apkinfo.cpp.o"
+/usr/bin/ranlib libmcpelauncher-apkinfo.a

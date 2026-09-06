@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/CMakeFiles/curl_ext"
+		},
+		{
+			"file" : "/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/CMakeFiles/curl_ext.rule"
+		},
+		{
+			"file" : "/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/CMakeFiles/curl_ext-complete.rule"
+		},
+		{
+			"file" : "/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-stamp/curl_ext-build.rule"
+		},
+		{
+			"file" : "/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-stamp/curl_ext-configure.rule"
+		},
+		{
+			"file" : "/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-stamp/curl_ext-download.rule"
+		},
+		{
+			"file" : "/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-stamp/curl_ext-install.rule"
+		},
+		{
+			"file" : "/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-stamp/curl_ext-mkdir.rule"
+		},
+		{
+			"file" : "/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-stamp/curl_ext-patch.rule"
+		},
+		{
+			"file" : "/Users/hashim/Coding/other/mcpelauncher-manifest/build-macos/curl_ext-prefix/src/curl_ext-stamp/curl_ext-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"curl_ext"
+		],
+		"name" : "curl_ext"
+	}
+}

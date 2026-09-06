@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaxml_parser.a CMakeFiles/axml_parser.dir/lib/axml_file.cpp.o CMakeFiles/axml_parser.dir/lib/string_pool.cpp.o CMakeFiles/axml_parser.dir/lib/chunk_header_range.cpp.o CMakeFiles/axml_parser.dir/lib/axml_parser.cpp.o
+/usr/bin/ranlib libaxml_parser.a

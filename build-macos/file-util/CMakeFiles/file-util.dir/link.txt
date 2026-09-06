@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfile-util.a "CMakeFiles/file-util.dir/src/FileUtil.cpp.o" "CMakeFiles/file-util.dir/src/EnvPathUtil.cpp.o" "CMakeFiles/file-util.dir/src/EnvPathUtil_MacOS.mm.o"
+/usr/bin/ranlib libfile-util.a

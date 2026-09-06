@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfake-jni.a "CMakeFiles/fake-jni.dir/src/fake-jni/fake-jni.cpp.o" "CMakeFiles/fake-jni.dir/src/fake-jni/jvm.cpp.o" "CMakeFiles/fake-jni.dir/src/fake-jni/method.cpp.o"
+/usr/bin/ranlib libfake-jni.a

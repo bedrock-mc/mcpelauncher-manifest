@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmcpelauncher-common.a "CMakeFiles/mcpelauncher-common.dir/src/path_helper.cpp.o" "CMakeFiles/mcpelauncher-common.dir/src/path_helper_osx.mm.o"
+/usr/bin/ranlib libmcpelauncher-common.a
